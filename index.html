@@ -6,7 +6,7 @@
     <title>Haegen Quinston - Portfolio</title>
     <meta name="description" content="Software Engineer & Creative Technologist">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="elements/favicon.ico" type="image/x-icon">
 </head>
 <body>
 
@@ -24,9 +24,18 @@
                 <a href="https://linkedin.com/in/haegenquinston/"><img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn" width="20"></a>
                 <a href="mailto:haegenquinston@gmail.com"><img src="https://img.icons8.com/ios-filled/50/ffffff/new-post.png" alt="Email" width="20"></a>
             </div>
-            <div class="mobile-menu-button">
-                <button>&#9776;</button>
-            </div>
+            <<input type="checkbox" id="menu-toggle" class="mobile-menu-toggle">
+            <label for="menu-toggle" class="mobile-menu-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+        </div>
+        <div id="mobile-nav" class="mobile-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
         </div>
     </nav>
 
@@ -72,60 +81,70 @@
 
     <section id="projects">
         <div class="section-container">
-            <h2>My Projects</h2>
+            <h2>Volunteering Experience</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <img src="/sparta-website.png" alt="Sparta HMIF ITB Website">
+                    <img src="elements\sparta.png" alt="Sparta HMIF ITB Website">
                     <div class="project-info">
                         <h3>Sparta HMIF ITB Website</h3>
                         <p>Complete front-end for the 'Sparta' student orientation program website, serving over 300 students with responsive design and REST API integration.</p>
                         <div class="project-tech">
-                            <span>React</span>
+                            <span>Gin</span>
                             <span>TypeScript</span>
                             <span>Tailwind CSS</span>
-                            <span>Axios</span>
+                            <span>PostgreSQL</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="button">Live</a>
-                            <a href="#" class="button">Code</a>
+                            <a href="https://sparta.hmif.dev/" class="button">Live</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="/investment-festival.png" alt="Investment Festival ITB Platform">
+                    <img src="elements\infest.jpg" alt="Investment Festival ITB Platform">
                     <div class="project-info">
                         <h3>Investment Festival ITB Platform</h3>
                         <p>Marketing campaign platform for Investment Festival 2024, featuring conference registration, competition management, and media partnership integration.</p>
                         <div class="project-tech">
-                            <span>React</span>
-                            <span>Next.js</span>
-                            <span>JavaScript</span>
-                            <span>Bootstrap</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="button">Live</a>
-                            <a href="#" class="button">Code</a>
+                            <span>Leadership</span>
+                            <span>Content Creation</span>
+                            <span>Partnership Management</span>
+                            <span>Media Relations</span>
                         </div>
                     </div>
                 </div>
+                <div class="project-card">
+                    <img src="elements\gend.jpg" alt="GenDigital Bandung">
+                    <div class="project-info">
+                        <h3>GenDigital Bandung</h3>
+                        <p>Part of the GenDigital Bandung Growth & Development team, contributing on partnership initiatives, community engagement, and event execution.</p>
+                        <div class="project-tech">
+                            <span>Public Speaking</span>
+                            <span>Community Engagement</span>
+                            <span>Event Planning</span>
+                            <span>Partnership Management</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://instagram.com/gendigital.bandung" class="button" target="_blank">Instagram</a>
+                        </div>
+                    </div>
                 </div>
         </div>
     </section>
 
     <section id="experience">
         <div class="section-container">
-            <h2>My Journey</h2>
+            <h2>Positions</h2>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <h3>Frontend Specialist</h3>
                         <p>Sparta HMIF ITB</p>
-                        <span>Jun 2025 - Present</span>
+                        <span>Jun 2025 - Sept 2025</span>
                         <ul>
                             <li>Engineered and deployed the complete front-end for the 'Sparta' website, serving over 300 students</li>
-                            <li>Built responsive, reusable components using React, TypeScript, and Tailwind CSS</li>
-                            <li>Integrated REST APIs via Axios for seamless data communication</li>
+                            <li>Built responsive, reusable components using Go, Gin, Typescript, and Tailwind CSS</li>
+                            <li>Integrated REST APIs for seamless data communication</li>
                         </ul>
                     </div>
                 </div>
@@ -152,6 +171,7 @@
                             <li>Maintaining GPA of 3.71/4.00 in Computer Science program</li>
                             <li>Completed courses in AI, Algorithm Strategies, Web Development, and Advanced Databases</li>
                             <li>Selected for Bakti BCA Scholarship (top 8% from 10,000+ applicants)</li>
+                            <li>Programming Laboratory Assistant from the 2023 cohort</li>
                         </ul>
                     </div>
                 </div>
@@ -160,7 +180,7 @@
     </section>
 
     <footer>
-        <p>© 2024 Haegen Quinston. Built with Next.js and Tailwind CSS.</p>
+        <p>© 2025 Haegen Quinston. Built with Vanilla HTML and CSS.</p>
     </footer>
 
 </body>
