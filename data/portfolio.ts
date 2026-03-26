@@ -34,21 +34,20 @@ export const siteConfig = {
 };
 
 export const skills: Skill[] = [
-  { name: "Python", category: "language", proficiency: 90 },
-  { name: "SQL", category: "language", proficiency: 85 },
-  { name: "Java", category: "language", proficiency: 80 },
-  { name: "C/C++", category: "language", proficiency: 75 },
-  { name: "Go", category: "language", proficiency: 65 },
-  { name: "JavaScript", category: "language", proficiency: 85 },
-  { name: "TypeScript", category: "language", proficiency: 85 },
-  { name: "React", category: "framework", proficiency: 85 },
-  { name: "Next.js", category: "framework", proficiency: 80 },
-  { name: "Prisma", category: "framework", proficiency: 70 },
-  { name: "Git", category: "tool", proficiency: 85 },
+  { name: "Python", category: "language", proficiency: 95 },
+  { name: "SQL", category: "language", proficiency: 90 },
+  { name: "Java", category: "language", proficiency: 85 },
+  { name: "C/C++", category: "language", proficiency: 90 },
+  { name: "Go", category: "language", proficiency: 70 },
+  { name: "JavaScript", category: "language", proficiency: 93 },
+  { name: "TypeScript", category: "language", proficiency: 93 },
+  { name: "React", category: "framework", proficiency: 91 },
+  { name: "Next.js", category: "framework", proficiency: 90 },
+  { name: "Prisma", category: "framework", proficiency: 83 },
+  { name: "Git", category: "tool", proficiency: 88 },
   { name: "Bootstrap", category: "framework", proficiency: 75 },
-  { name: "MySQL", category: "database", proficiency: 80 },
-  { name: "PostgreSQL", category: "database", proficiency: 75 },
-  { name: "MongoDB", category: "database", proficiency: 70 },
+  { name: "MySQL", category: "database", proficiency: 90 },
+  { name: "PostgreSQL", category: "database", proficiency: 86 },
 ];
 
 export const projects: Project[] = [
@@ -63,40 +62,40 @@ export const projects: Project[] = [
     category: "web",
   },
   {
-    title: "Investment Festival ITB Platform",
+    title: "Investment Festival ITB",
     description:
-      "Marketing campaign platform for Investment Festival 2024, featuring conference registration, competition management, and media partnership integration.",
+      "Marketing campaign for Investment Festival 2024, featuring conference registration, competition management, and media partnership integration.",
     tech: ["React", "Next.js", "JavaScript", "Bootstrap"],
-    image: "/projects/investment-festival.png",
-    date: "2024-04",
-    category: "web",
-  },
-  {
-    title: "E-Commerce Expansion Strategy",
-    description:
-      "Strategic e-commerce platform expansion for F&B business partner through Bakti BCA Scholarship program, achieving 30% sales increase in first month.",
-    tech: ["Data Analysis", "Strategy", "E-Commerce", "Business Development"],
-    image: "/projects/ecommerce-strategy.png",
+    image: "/projects/investment-festival.jpg",
     date: "2024-08",
+    category: "other",
+  },
+  {
+    title: "Pothole Image Segmentation Project",
+    description:
+      "Computer vision project for identifying and segmenting potholes in urban road images, utilizing deep learning techniques.",
+    tech: ["Python", "TensorFlow", "Hugging Face", "Computer Vision"],
+    image: "/projects/pothole-segmentation.png",
+    date: "2026-02",
     category: "data",
   },
   {
-    title: "Data Analysis Project",
+    title: "Indonesian Custom Home Image Classification",
     description:
-      "Advanced data analysis and predictive modeling project using Python and SQL for algorithm optimization and pattern recognition.",
-    tech: ["Python", "SQL", "Data Analysis", "Machine Learning"],
-    image: "/projects/data-analysis.png",
-    date: "2024-06",
+      "Computer vision project for classifying custom home images in Indonesia, utilizing deep learning models.",
+    tech: ["Python", "TensorFlow", "Hugging Face", "Computer Vision"],
+    image: "/projects/home-classification.png",
+    date: "2025-11",
     category: "data",
   },
   {
-    title: "Algorithm Optimization Tool",
+    title: "E-Commerce Prototype Application",
     description:
-      "Complex algorithm and data structure implementation project showcasing proficiency in computational problem-solving.",
-    tech: ["Java", "C/C++", "Algorithms", "Data Structures"],
-    image: "/projects/algorithm-tool.png",
-    date: "2024-03",
-    category: "systems",
+      "Full-stack e-commerce application prototype with user authentication, product management, and secure payment processing.",
+    tech: ["PHP", "PostgreSQL", "HTML/CSS", "Laravel"],
+    image: "/projects/e-commerce-website.png",
+    date: "2025-10",
+    category: "web",
   },
   {
     title: "Database Management System",
@@ -104,7 +103,7 @@ export const projects: Project[] = [
       "Advanced database project implementing complex queries and optimization techniques across multiple database systems.",
     tech: ["MySQL", "PostgreSQL", "MongoDB", "SQL"],
     image: "/projects/database-system.png",
-    date: "2024-01",
+    date: "2025-05",
     category: "systems",
   },
 ];
