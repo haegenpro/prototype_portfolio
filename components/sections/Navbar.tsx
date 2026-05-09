@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Github, Linkedin, Mail, Menu, X, User, Code, Briefcase, Search } from "lucide-react";
+import { Github, Linkedin, Mail, Menu, X, User, Code, Briefcase, Search, Trophy, FlaskConical } from "lucide-react";
 import { siteConfig } from "@/data/portfolio";
 
 export function Navbar() {
@@ -10,7 +10,7 @@ export function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "projects", "experience", "contact"];
+      const sections = ["home", "about", "projects", "lab", "awards", "experience", "contact"];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -46,6 +46,8 @@ export function Navbar() {
     { name: "Home", icon: null },
     { name: "About", icon: User },
     { name: "Projects", icon: Code },
+    { name: "Lab", icon: FlaskConical },
+    { name: "Awards", icon: Trophy },
     { name: "Experience", icon: Briefcase },
     { name: "Contact", icon: Mail },
   ];
